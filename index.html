@@ -21,15 +21,16 @@
 
       <ul class="main-nav">
         <li class="active"><a href="#">Home</a></li>
-        <li><a href="pages/projects.html">Projects</a></li>
-        <li><a href="pages/contact.html">Contacts</a></li>
+        <li><a href="pages/projects.html" target="_blank">Projects</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contacts</a></li>
       </ul>
     </div>
     <div class="container">
       <div class="content">
 
         <h1 id="text">Ahmed Khalaf</h1>
-        <h2>Portfolio</h2>
+        <h2 style="border-bottom: none">Portfolio</h2>
         <a href="#scroll" class="btn btn-one">View more</a>
       </div>
     </div>
@@ -73,13 +74,51 @@
     </div>
 
   </main>
-  <h2>About</h2>
-  <div class="box4">
-    <figure> <img src="../Portfolio Website/images/file.jpeg" alt="Ahmed Khalaf"></figure>
-
-    <h3>Ahmed Khalaf</h3>
-
+  <!--About -->
+  <h2 id="about">About</h2>
+  <div class="about">
+    <div class="box4">
+      <div class="img-top">
+        <img src="../portfolioak/images/file.jpeg" class="imgak" alt="Ahmed Khalaf">
+      </div>
+      <h3>Ahmed Khalaf</h3>
+      <p><em> " Studying Multimediadesign -
+          With the intetion of starting my own bussines and becoming the worlds best designer and developer. My dream
+          has
+          always been to own a company and make it big. I have in several years made experince with alot of diffrent
+          bussines ideas and choose to go with the biggest of them all the dream of mine "</em></p>
+      <p class="sac"> <strong>Student at Cphbusiness</strong> </p>
+    </div>
   </div>
+
+  <!-- Contact -->
+  <h2 id="contact">Contact</h2>
+  <div class="contact">
+    <div class="box5">
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      <label for="email">Email</label>
+      <input type="text" id="email" name="email" placeholder="Your Email..">
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      <input type="submit" value="Submit">
+    </div>
+  </div>
+  <footer>
+    <div class="footer">
+      <div class="box6">
+        <p class="foottext">This website is made during a school project and purpose only for eductional use. </p>
+        <h4 class="foottext3">Contact</h4>
+        <br>
+        <p class="foottext2"> Email us at : loremipsum@hotmail.com</p>
+        <br>
+        <p class="foottext">Copyright ©2019 All rights reserved | This template is made with by <span> Khalaf </span>
+        </p>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>
