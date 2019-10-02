@@ -1,15 +1,3 @@
-/* Table of contents 
------------------------------------------------
-- General Content
-- Typography
-- Header & Navigation
-- Images & Media
-- Footer
-- Media Queries
----------------------------------------------*/
-
-
-
 /*General Content
 ----------------------------------------------*/
 * {
@@ -79,6 +67,38 @@ html {
 .midtext {
 	margin: 50px;
 	color: rgb(138, 134, 134);
+}
+
+/* Projects */
+
+.flow1 {
+	text-align: left;
+}
+
+.text1 {
+	font-size: 50px;
+	text-align: center;
+	border-bottom: solid 1px black;
+}
+
+.bigcon {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.flow1content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.wbox {
+	width: 100%;
+}
+
+.wbox1 {
+	width: 50%;
 }
 
 /* About */
